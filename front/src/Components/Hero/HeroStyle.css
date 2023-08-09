@@ -1,0 +1,178 @@
+.home-hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+.contact-hero{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.signup-hero{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+
+.service-hero{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.home-hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.home-hero-text h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    color: rgb(255, 227, 227);
+    padding: 0.5rem;
+    font-weight: 100;
+}
+
+.home-hero-text p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    padding: 0.5rem 0 2rem 0;
+}
+
+
+.home-hero-btn{
+    background-color: rgba(239, 239, 239, 0.454);
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.home-hero-btn:hover{
+    background-color: rgba(239, 239, 239, 0.662);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.contact-hero-text{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contact-hero-text h1{
+    font-size: 4rem;
+    color: rgb(255, 227, 227);
+    padding: 0.5rem;
+}
+
+
+.service-hero-text h1{
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+}
+
+.service-hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .home-hero-text h1{
+            padding: 10px 20px;
+            display: flex;
+    }
+
+    .home-hero-text p{
+            font-size: 1.1rem;
+            padding: 0 0 2rem 0;
+    }
+
+
+    .home-hero-btn{
+            padding: 0.6rem 1.1rem;
+            font-size: 1rem;
+    }
+
+    .contact-hero-text h1{
+            font-size: 3rem;
+            color: rgb(255, 227, 227);
+            padding: 10px 20px;
+            margin-top: 5rem;
+            margin-left: 3rem;
+    }
+
+    .service-hero{
+            width: auto;
+            height: auto;
+    }
+    .contact-hero{
+            width: auto;
+            height: auto;
+    }
+    .about-hero{
+            width: auto;
+            height: auto;
+    }
+    .signup-hero{
+            width: auto;
+            height: auto;
+    }
+
+    .service-hero-text h1{
+            font-size: 3rem;
+            margin-right: 5rem;
+            display: flex;
+    }
+}

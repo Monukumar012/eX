@@ -1,0 +1,138 @@
+.bottom-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 29px 5px rgba(94, 94, 94, 0.142);
+    height: auto;
+    width: auto;
+    /* margin: 2rem 0; */
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+}
+
+
+
+.image{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image>img{
+    height: 100%;
+    width: 95%;
+    object-fit: cover;
+    padding: 1rem 0rem;
+}
+
+.content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 30%;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-bottom>p{
+    color: whitesmoke;
+    font-weight: 100;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.bottom-1>a{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:950px) {
+    .content{
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-top{
+        padding-bottom: 1rem;
+        width: auto;
+    }
+
+    .content-bottom{
+        width: auto;
+    }
+}
+
+
+
+
+
+/* 
+
+@media screen and (max-width:1442px){
+    .main{
+        padding: 4rem 5rem;
+    }
+    .bottom-1{
+        width: 28rem;
+        height: 18rem;
+    }
+}
+
+
+
+@media screen and (max-width:1151px) {
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-1{
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .bottom-1{
+        width: 30rem;
+        height: 20rem;
+        margin: 1rem 1rem;
+    }
+}
+
+
+
+@media screen and (max-width:560px) {
+    .bottom-1{
+        width: auto;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+}
+
+ */

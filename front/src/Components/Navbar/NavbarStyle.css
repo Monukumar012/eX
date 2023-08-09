@@ -1,0 +1,112 @@
+.navbar-main{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25); */
+        width: 100%;
+        /* border-radius: 14px; */
+        height: 4rem;
+        position: fixed;
+        /* top: 20px;
+        left: 50%;
+        transform: translate(-50%); */
+        z-index: 9999;
+}
+
+.navbar-logo{
+    color: wheat;
+    align-items: center;
+    display: flex;
+    padding: 0rem 2rem;
+    font-size: 2rem;
+}
+.navbar-icon{
+    display: none;
+}
+
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+.navbar-links>a{
+    text-decoration: none;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.2rem;
+}
+
+.navbar-links>a:hover{
+    background-color: #181a1b9d;
+    border-radius: 6px;
+}
+
+
+@media screen and (max-width:650px) {
+    .navbar-main{
+        z-index: 99;
+    }
+    .navbar-items{
+        
+        display: flex;
+        background: #131518;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        position: absolute;
+        height: auto;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        padding: 80px 0px 30px 0px;
+        margin: 0;
+        align-items:stretch ;
+        transition: 0.3s ease-in-out;
+        
+    }
+
+
+    .navbar-items.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    .navbar-links{
+        display: block;
+        padding: 2rem 0;
+        width: 100%;
+        transition: 0.1s ease-in-out;
+        text-align: center;
+        
+    }
+
+    .navbar-links>a{
+        color: rgb(215, 238, 185);
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    .navbar-links>a:hover{
+        background-color: #312e35;
+    }
+    .navbar-links:hover{
+        background-color: #312e35;
+        
+    }
+
+
+    .navbar-icon{
+        color: wheat;
+        margin: 0rem 1rem;
+        font-size: 2rem;
+        display: block;
+    }
+    
+}
