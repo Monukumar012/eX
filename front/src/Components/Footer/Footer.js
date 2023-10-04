@@ -1,5 +1,6 @@
-import React from 'react'
-import './FooterStyle.css'
+import React from 'react';
+import './FooterStyle.css';
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -27,21 +28,21 @@ const Footer = () => {
       <div className='footer-middle'>
         <div className='middle-div'>
           <h2>Links</h2>
-          <a href='/'>Home</a>
-          <a href='/'>Contact</a>
-          <a href='/'>About</a>
+          <Link to='/'>Home</Link>
+          <Link to='/'>Contact</Link>
+          <Link to='/'>About</Link>
         </div>
         <div className='middle-div'>
           <h2>Category</h2>
-          <a href='/motivational'>Motivational</a>
-          <a href='/slow-vibes'>Slow-Vibe</a>
-          <a href='/customize'>Customize</a>
+          <Link to='/motivational'>Motivational</Link>
+          <Link to='/slow-vibes'>Slow-Vibe</Link>
+          <Link to='/melodious'>Melodious</Link>
         </div>
         <div className='middle-div'>
           <h2>Links</h2>
-          <a href='/'>Home</a>
-          <a href='/'>Contact</a>
-          <a href='/'>About</a>
+          <Link to='/'>Home</Link>
+          <Link to='/library'>Librery</Link>
+          <Link to='/about'>About</Link>
         </div>
       </div>
       <div className='footer-bottom'>

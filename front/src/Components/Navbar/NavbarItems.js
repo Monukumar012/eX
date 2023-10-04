@@ -8,8 +8,8 @@ export const NavbarItems = [
         url : '/library'
     },
     {
-        titile : 'Contact',
-        url : '/contact'
+        titile : 'Add Video',
+        url : '/addvideo'
     },
     {
         titile : 'About',

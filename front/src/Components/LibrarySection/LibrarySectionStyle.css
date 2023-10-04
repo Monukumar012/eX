@@ -1,4 +1,4 @@
-.main{
+.lib-main{
     padding: 4rem 6rem;
     /* display: flex; */
     background-color: #101314;
@@ -6,13 +6,13 @@
 }
 
 
-.top{
+.lib-top{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem 0rem;
 }
-.top>h1{
+.lib-top>h1{
     color: bisque;
     font-size: 3rem;
     letter-spacing: 2px;
@@ -20,7 +20,7 @@
 }
 
 
-.bottom{
+.lib-bottom{
     margin: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
@@ -30,44 +30,35 @@
 }
 
 
-.bottom a{
+.lib-bottom a{
+    border: 1px solid gray;
+    font-size: 2rem;
     text-decoration: none;
     color: bisque;
-    padding: 1rem 1rem;
+    padding: 1.2rem 2rem;
+    margin: 1rem 1rem;
 }
-.bottom a:hover{
+.lib-bottom a:hover{
     color: rgb(196, 255, 204);
 }
 
 
-.bottom-1{
-    width: 22rem;
-    /* background: #b406d6; */
-    height: 13rem;
-    margin: 2rem 0;
-    margin-left: 2rem;
-}
-
 
 
 @media screen and (max-width:1442px){
-    .main{
+    .lib-main{
         padding: 4rem 5rem;
-    }
-    .bottom-1{
-        width: 28rem;
-        height: 18rem;
     }
 }
 
 
 
 @media screen and (max-width:1151px) {
-    .main{
+    .lib-main{
         padding: 4rem 3rem;
     }
 
-    .bottom{
+    .lib-bottom{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -77,7 +68,7 @@
 
 
 @media screen and (max-width:700px) {
-    .main{
+    .lib-main{
         padding: 4rem 1rem;
     }
 }
@@ -85,7 +76,7 @@
 
 
 @media screen and (max-width:560px) {
-    .main{
+    .lib-main{
         padding: 4rem 0.4rem;
     }
 }

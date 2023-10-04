@@ -11,6 +11,7 @@ const Motivational = () => {
         route = "/motivational"
         heading = "Motivational"
         cName = "videos-main"
+        type = "motivational"
       />
       <Footer />
     </>

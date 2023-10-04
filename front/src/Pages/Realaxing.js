@@ -11,6 +11,7 @@ const Realaxing = () => {
         route = "/relaxing"
         heading = "Relaxing"
         cName = "videos-main"
+        type = "relaxing"
       />
       <Footer />
     </>

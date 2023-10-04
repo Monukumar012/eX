@@ -11,6 +11,7 @@ const Slow = () => {
         route = "/slow"
         heading = "Slow-Vibes"
         cName = "videos-main"
+        type = "slow"
       />
       <Footer />
     </>

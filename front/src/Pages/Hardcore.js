@@ -11,6 +11,7 @@ const Hardcore = () => {
         route = "/hardcore"
         heading = "Hard-Core"
         cName = "videos-main"
+        type = "hard"
       />
       <Footer />
     </>

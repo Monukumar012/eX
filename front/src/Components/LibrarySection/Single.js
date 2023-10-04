@@ -7,7 +7,7 @@ const Single = (props) => {
     <>
       <div className="bottom-1">
         <div className="image">
-          <img alt="jpg" src={props.imgurl} />
+          {/* <img alt="jpg" src={props.imgurl} /> */}
         </div>
         <div className="content">
           <div className="content-top">
@@ -16,7 +16,7 @@ const Single = (props) => {
             </Link>
           </div>
           <div className="content-bottom">
-            <p>{props.para}</p>
+            {/* <p>{props.para}</p> */}
           </div>
         </div>
       </div>

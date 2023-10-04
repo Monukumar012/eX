@@ -3,8 +3,8 @@
     border: 2px solid black;
     margin: 2rem 0;
     margin-left: 2rem;
-    width: 25rem;
-    height: 16rem;
+    width: 22rem;
+    height: 13rem;
     border: none;
 }
 
@@ -13,8 +13,8 @@
 @media screen and (max-width:1350px) {
 
     .video{
-        width: 26rem;
-        height: 17rem;
+        width: 24rem;
+        height: 15rem;
     }
 }
 

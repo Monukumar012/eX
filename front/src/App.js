@@ -8,6 +8,7 @@ import Realaxing from './Pages/Realaxing.js';
 import Hardcore from './Pages/Hardcore.js';
 import Slow from './Pages/Slow.js';
 import Customize from './Pages/Customize.js';
+import AddVideoPage from './Pages/AddVideoPage';
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/library' element={<Library/>} />
+        <Route path='/addvideo' element={<AddVideoPage/>} />
         <Route path='/library/motivational' element={<Motivational/>} />
-        <Route path='/library/realaxing' element={<Realaxing/>} />
-        <Route path='/library/hard-core' element={<Hardcore/>} />
+        <Route path='/library/relaxing' element={<Realaxing/>} />
+        <Route path='/library/hard' element={<Hardcore/>} />
         <Route path='/library/slow-vibes' element={<Slow/>} />
-        <Route path='/library/customize' element={<Customize/>} />
+        <Route path='/library/melodious' element={<Customize/>} />
     </Routes>
 
   );

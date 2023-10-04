@@ -9,8 +9,9 @@ const Customize = () => {
       <Navbar />
       <Videos 
         route = "/customize"
-        heading = "Customize"
+        heading = "Melodious"
         cName = "videos-main"
+        type = "melodious"
       />
       <Footer />
     </>

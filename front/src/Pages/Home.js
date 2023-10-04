@@ -5,6 +5,12 @@ import Footer from "../Components/Footer/Footer";
 import Videos from "../Components/Videos/Videos";
 
 const Home = () => {
+
+
+
+
+
+
   return (
     <>
       <Navbar />
@@ -22,6 +28,7 @@ const Home = () => {
         route = "/"
         heading = "Latest"
         cName = "videos-main"
+        type = "hard"
       />
       <Footer />
     </>
